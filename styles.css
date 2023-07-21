@@ -1,0 +1,482 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+ 
+}
+header{
+  background-image: url('bg7.jpeg'); /* Replace with your header background image */
+  background-size: cover 5px;
+  background-position: center;
+  color: #fff;
+  padding: 20px;
+  
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #0015ff; /* Add your desired header name color */
+  font-family: 'YourDesiredFont', Arial, sans-serif; 
+  transition: transform 0.3s ease;
+}
+header h1:hover {
+  transform: translateX(20px); /* Move the header name 20 pixels to the right */
+}
+
+header p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+
+
+.section-about {
+  color: #fff; /* Set text color for better visibility */
+  padding: 50px 0;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-left {
+  flex: 1;
+  background-image: url('ux_background.jpg'); /* Replace with your UX design background image */
+  background-size: cover;
+  background-position: center;
+  padding: 40px; /* Add padding for better aesthetics */
+  border-radius: 10px;
+  margin-bottom: 20px; /* Add space between the left and right content */
+  /* Additional styles for the UX design background on the left */
+}
+
+.about-left h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-left p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+.about-left .resume-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.about-right {
+  flex: 1;
+}
+
+.about-right img {
+  max-width: 100%;
+  height: auto;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+}
+/* ... Additional styles for the content within the "About" section ... */
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+  .about-content {
+      flex-direction: column;
+  }
+
+  .about-left,
+  .about-right {
+      flex: none; /* Reset flex to prevent content from stretching */
+      width: 100%; /* Make each section take full width */
+      margin-bottom: 0; /* Remove space between left and right content */
+  }
+
+  .about-left {
+      padding: 20px;
+      margin-bottom: 20px;
+  }
+
+  .about-right img {
+      max-width: 100%;
+      height: auto;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.left-side {
+  flex: 1;
+}
+
+.left-side h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.right-side {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li:not(:last-child) {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #555;
+}
+
+section {
+  padding: 20px;
+}
+
+/* Add background colors and styles for each section */
+.section-bg {
+  background-color: #f0f0f0;
+}
+
+.section-home {
+  background-image: url('bg1.webp');
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Set text color for better visibility */
+}
+
+.section-about {
+  background-image: url('bg2.webp');
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Set text color for better visibility */
+}
+
+.section-experience {
+  background-image: url('bg3.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Set text color for better visibility */
+}
+
+.section-projects {
+  background-image: url('bg4.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Set text color for better visibility */
+}
+
+.section-contact {
+  background-image: url('bg5.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Set text color for better visibility */
+}
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-content .left-side {
+  flex: 1;
+}
+
+.home-content .left-side img {
+  max-width: 100%;
+}
+
+.home-content .right-side {
+  flex: 1;
+  text-align: right;
+}
+
+.home-content .right-side h2, .about-content .left-side h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.home-content .right-side h1, .about-content .left-side p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/* ... Previous CSS code ... */
+
+/* ... Previous CSS code ... */
+
+/* ... Previous CSS code ... */
+
+.section-about {
+  color: #fff; /* Set text color for better visibility */
+  padding: 50px 0;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-left {
+  flex: 1;
+  background-image: url('ux_background.jpg'); /* Replace with your UX design background image */
+  background-size: cover;
+  background-position: center;
+  padding: 40px; /* Add padding for better aesthetics */
+  border-radius: 10px;
+  /* Additional styles for the UX design background on the left */
+}
+
+.about-left h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-left p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.about-left .resume-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.about-right {
+  flex: 1;
+}
+
+.about-right img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ... Additional styles for the content within the "About" section ... */
+
+
+
+.resume-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.resume-button:hover {
+  background-color: #0056b3;
+}
+
+/* ... Previous CSS code ... */
+
+.experience-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.experience-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.experience-box {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.experience-box img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.experience-date {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.experience-text h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.experience-text p {
+  font-size: 16px;
+}
+
+/* ... Previous CSS code ... */
+
+.projects-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.projects-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-box {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-box p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+form {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* ... Previous CSS code ... */
+
+#scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+}
+
+#scroll-to-top a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#scroll-to-top a img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+#scroll-to-top a:hover {
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
